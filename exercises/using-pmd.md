@@ -7,7 +7,7 @@ You can use the default [rule base](https://github.com/pmd/pmd/blob/master/pmd-j
 ## Answer
 
 
-False positive
+###False positive
 
 commons-collections\src\main\java\org\apache\commons\collections4\SetUtils.java:564:    LooseCoupling:  Avoid using implementation types like 'SetView'; use the interface instead
 
@@ -37,7 +37,7 @@ public static <E> SetView<E> union(final Set<? extends E> setA, final Set<? exte
     
 There is no interface to use.
 
-True positive : 
+###True positive : 
 
 
 commons-collections\src\main\java\org\apache\commons\collections4\multimap\AbstractMultiValuedMap.java:802:     ReturnEmptyCollectionRatherThanNull:    Return an empty collection rather than null.
