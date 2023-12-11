@@ -43,6 +43,7 @@ Here is the rule that I used
 
 commons-collections\src\main\java\org\apache\commons\collections4\set\CompositeSet.java:376:    3IfStatement:   Usage of at least 3 nested if statements
 
+```
    public synchronized void addComposited(final Set<E> set) {
         if (set != null) {
             for (final Set<E> existingSet : getSets()) {
@@ -62,4 +63,5 @@ commons-collections\src\main\java\org\apache\commons\collections4\set\CompositeS
             all.add(set);
         }
     }
+```
 
