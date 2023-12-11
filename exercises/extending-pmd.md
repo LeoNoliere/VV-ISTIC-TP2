@@ -25,6 +25,7 @@ Use your rule with different projects and describe you findings below. See the [
 
 Here is the rule that I used
 
+```
 <rule name="3IfStatement" language="java" message="Usage of at least 3 nested if statements" class="net.sourceforge.pmd.lang.rule.XPathRule">
         <description>Detection of three or more nested if statements in Java code. </description>
         <priority>3</priority>
@@ -36,6 +37,7 @@ Here is the rule that I used
             </property>
         </properties>
     </rule>
+```
 
 ### Result :
 
